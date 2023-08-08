@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* index.jsp 메인화면 ui */
+
+body{
+	background-color:#898989;
+	margin:0px; /* 상하좌우 바깥여백 지정 */ padding:0px /*상하좌우 안여백을 지정*/
+	font-size:0.7em; 
+	line-height: 1.2em;
+	color: #333; /*#333 16진수 색상코드는 #333333을 줄여서 표현*/
+}
+#wrap{
+	width: 971px; text-align: left; /*글자 수평 왼쪽 정렬*/
+	margin:0px;
+	margin-left: auto; margin-right: auto; /*블록수준 요소 태그에 ㄴ비를 지정한 후 수평 좌우 중앙 정렬 처리*/
+	background-color: url(../images/shadow.png);
+	background-repeat: repeat-y; /*y측 방향으로 반복*/
+	min-height: 980px
+}
+logo{
+	float: left;
+	width: 265px;
+	margin:60px 0px 0px 40px; /*시계방향으로 바깥 위, 오른쪽,아래쪽,왼쪽*/
+}
